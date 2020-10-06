@@ -27,7 +27,7 @@ or use the deployed link: <https://andrewyen64.github.io/employee-directory/>
 
 ## Contributing
 
-Of course! If you want to contribute and can optimize this code for the better, by all means. Create a branch and submit a pull request
+Of course! If you want to contribute and can optimize this code for the better, by all means. Create a branch and submit a pull request.
 
 ## Questions
 
