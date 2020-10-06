@@ -1,0 +1,138 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    padding: 2% 3%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.projects {
+    width: stretch; 
+    height: 350px;
+    border-bottom: 1px solid grey;
+}
+
+.card {
+    background-color: white;
+}
+
+.card-title {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr {
+    background-color: black;
+}
+
+.card a:visited {
+    color: rgb(0, 184, 184);
+}
+    
+a:hover {
+    color: rgb(30, 37, 254);
+}
+
+.space {
+    padding: 50px;
+}
+
+/* iPad */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2% 3%;
+        max-width: 768px;
+    }
+
+    .projects {
+        height: 300px;
+        border-bottom: 1px solid grey;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card-deck {
+        width: 630px;
+    }
+
+    main {
+        max-width: 640px;
+    }
+
+    .card-text {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .projects {
+        height: 250px;
+        border-bottom: 1px solid grey;
+    }
+
+    h5 {
+        text-align: center;
+    }
+}
+
+/* iPhone 6/7/8 */
+@media screen and (max-width: 414px) {
+    main {
+        max-width: 414px;
+        /* margin: 0 auto; */
+        padding-left: 9%;
+    }
+    
+    .card-deck {
+        max-width: 340px;
+    }
+
+    .card {
+        max-width: 340px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .projects {
+        margin: 0 auto;
+        max-width: auto;
+        height: 300px;
+        border-bottom: 1px solid grey;
+    }
+}
+
+/* iPhone X & Galaxy S5*/
+@media screen and (max-width: 375px) {
+    main {
+        max-width: 375px;
+        padding-left: 2%;
+    }
+
+    .card-deck {
+        width: 310px;
+    }
+
+    .card {
+        max-width: 310px;
+    }
+
+    .projects {
+        height: 300px;
+        border-bottom: 1px solid grey;
+    }
+}
