@@ -1,0 +1,30 @@
+.navbar {
+    background: #666;
+    border-bottom: 8px solid rgb(0, 200, 255);
+}
+  
+.brandName {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.navbar-brand,
+.navbar-toggler-icon,
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.hover :hover {
+    color: rgb(0, 195, 255);
+}
+
+/* iPhone 6/7/8 & Galaxy S5 */
+@media screen and (max-width: 414px) {
+    .brandName {
+        padding-left: 20px;
+    }
+}
