@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Bio.css";
 import profilePic from "../../images/profilepic.jpg"
 
@@ -26,7 +27,7 @@ function Bio () {
           I'm excited to work with others to create great projects and learn new skills. 
           <br></br>
           Feel free to send me a message
-          to chat about possible future projects <a href="/contact">here</a>!
+          to chat about possible future projects <Link to="/contact">here</Link>!
           <br/><br/>
           Link to my resume:
           <a href="https://docs.google.com/document/d/e/2PACX-1vSty7EOEJ1yaO4bQOlkTizTDC_tLJlu25hKSr87LQ_3e5iB4OyRJgCTuvwnX9mVoOz_H6mfzkqb1CEq/pub" 
