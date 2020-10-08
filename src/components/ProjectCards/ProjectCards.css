@@ -11,17 +11,23 @@ main {
 .projects {
     width: stretch; 
     height: 350px;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 .card {
     background-color: white;
+    border: 2px solid black;
 }
 
 .card-title {
     text-decoration: underline;
     text-align: center;
     font-weight: bold;
+}
+
+.techTitle {
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 hr {
@@ -37,7 +43,7 @@ a:hover {
 }
 
 .space {
-    padding: 50px;
+    padding: 100px;
 }
 
 /* iPad */
