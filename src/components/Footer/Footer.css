@@ -4,7 +4,7 @@ footer {
     clear: both;
     font-size: 14px;
     text-align: center;
-    background: #666;
+    background: rgb(40, 40, 40);
     border-top: 8px solid rgb(0, 200, 255);
     color: white;
     position: fixed;

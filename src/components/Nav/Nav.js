@@ -5,13 +5,13 @@ import "./Nav.css";
 function Nav() {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm">
+      <nav className="navbar bg-dark navbar-expand-sm">
         <Link className="navbar-brand" to="/">
           <span class="brandName">Andrew Yen</span>
         </Link>
         <div>
           <ul className="navbar-nav ml-auto">
-            <Link className="nav-link active hover" 
+            <Link className="nav-link border-light active hover" 
               to="/">
               <li>About</li>
             </Link>
