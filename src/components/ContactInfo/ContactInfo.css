@@ -19,7 +19,11 @@ main h2 {
 
 .contactP {
     font-size: 22px;
-    line-height: 40px;
+    line-height: 50px;
+}
+
+.space {
+    padding: 50px;
 }
 
 /* iPad */
@@ -48,11 +52,19 @@ main h2 {
         max-width: 415px;
         padding-left: 9%;
     }
+
+    .contactOption {
+        text-decoration: underline;
+    }
 }
 
 /* iPhone X */
 @media screen and (max-width: 375px) {
     main {
         max-width: 375px;
+    }
+
+    .contactP {
+        font-size: 20px;
     }
 }
