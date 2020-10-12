@@ -17,9 +17,9 @@ function Bio () {
           Hello there! My name is Andrew Yen. I'm a Full Stack web developer educated at UC Riverside Extension where I earned 
           a Certificate in Full-Stack Web Development.
           <br/><br/>
-          My huge passion for a variety of video games (platformers, fighters, action and tactical RPGs) has given me some 
-          knowledge on UIs and an enjoyable user experience. It's also what motivated me to start leaning how to code so that I may also  
-          contribute to the gaming/tech industry that's brought me so much joy and memories.
+          My passion for a variety of video games (platformers, fighters, action and tactical RPGs) has given me some 
+          knowledge on UIs and an enjoyable experience. It's also what motivated me to learn coding so that I can also  
+          contribute to the gaming/tech industry that's given me so much joy and memories.
           <br/><br/>
           As a video game enthusiast who has utilized all sorts of UIs (the good and the bad), I aim to create clean projects that 
           deliver a fulfilling, positive experience to the user.
