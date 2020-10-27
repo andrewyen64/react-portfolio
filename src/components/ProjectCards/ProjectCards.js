@@ -1,12 +1,13 @@
 import React from "react";
 import "./ProjectCards.css";
-import passwordGen from "../../images/passwordGen.png";
+// import passwordGen from "../../images/passwordGen.png";
 import budget from "../../images/budget-tracker.png"
 import scheduler from "../../images/scheduler.png";
 import note from "../../images/NT.png";
 import burger from "../../images/burger.png";
 // import sas1 from "../../images/sas1.png";
 import sas2 from "../../images/sas2.png";
+import searchPage from "../../images/search.png";
 
 function Projects() {
   return (
@@ -14,20 +15,20 @@ function Projects() {
         {/* <!-- 1st Row of Projects --> */}
         <div className="card-deck">             
           <br></br>
-
           <div className="card bg-light border-secondary">
             <img src = {sas2} 
                 className = "projects" 
-                alt = "Spot-A-Show 2.0"/>
+                alt = "Spot-A-Show 3.0"/>
             <div className="card-body">
-              <h4 className="card-title">Spot-A-Show v2.0</h4>
+              <h4 className="card-title">Spot-A-Show 3.0</h4>
               <p className="card-text">
-                With a visual overhaul from v1.0, Spot-A-Show 2.0 lets you search up an artist's general info and upcoming events. You can now
-                save these events to view them later in the events page.
+                Spot-A-Show 3.0 lets you search up an artist's general info and upcoming events. You can also
+                save searched events to view them later in the events page. We've added a shop button that directs 
+                the user to a page with options to purchase tickets.
                 <hr></hr>
-                <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, Materialize CSS, jQuery, APIs/AJAX, Node, Express, MySQL/Sequelize
+                <span className="techTitle">Technologies Used:</span> React.js, MaterializeCSS, APIs/AJAX, Node, Express, MongoDB/Mongoose
                 <hr></hr>
-                <a href = "https://damp-eyrie-26652.herokuapp.com/" 
+                <a href = "https://spotashow.herokuapp.com/" 
                 rel="noopener noreferrer"
                 target="_blank">Heroku Link
                 </a> 
@@ -42,6 +43,36 @@ function Projects() {
           <br></br>
 
           <div className="card bg-light border-secondary">
+            <img src = {searchPage}
+                className = "projects"
+                alt = "Google Books Search"/>
+            <div className="card-body">
+              <h4 className="card-title">Google Books Search (React)</h4>
+              <p className="card-text">
+                A Google Books Search app utilizing React that lets you search, view, and save books you may want to view later. 
+                You can delete/unsave books in the saved page or within the main search page if it's still there.
+                <hr></hr>
+                <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, React, APIs/Axios, MongoDB/Mongoose, 
+                <hr></hr>
+                <a href = "https://polar-savannah-18798.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank">Heroku Link
+                  </a> 
+                <br></br>
+                <a href = "https://github.com/andrewyen64/google-book-search-react" 
+                rel="noopener noreferrer"
+                target="_blank">Github Repository
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <br></br>
+
+      {/* <!-- 2nd Row of Projects --> */}
+        <div className="card-deck">
+          <div className="card bg-light border-secondary" >
             <img src = {budget} 
                   className = "projects" 
                   alt = "Budget Tracker"/>
@@ -58,36 +89,6 @@ function Projects() {
                 </a> 
                 <br></br>
                 <a href = "https://github.com/andrewyen64/budget-tracker-iDBPWA" 
-                rel="noopener noreferrer"
-                target="_blank">Github Repository
-                </a>
-              </p>
-            </div>
-            
-          </div>
-        </div>
-
-        <br></br>
-
-      {/* <!-- 2nd Row of Projects --> */}
-        <div className="card-deck">
-          <div className="card bg-light border-secondary" >
-            <img src = {scheduler} 
-                  className = "projects" 
-                  alt = "Work Day Scheduler"/>
-            <div className="card-body">
-              <h4 className="card-title">Work Day Scheduler</h4>
-              <p className="card-text">
-                A daily scheduler for work that helps organize your daily tasks. The task blocks change color by the hour for clear indication of past, present and future tasks.
-                <hr></hr>
-                <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, Moment.js
-                <hr></hr>
-                <a href = "https://andrewyen64.github.io/work-day-scheduler/" 
-                rel="noopener noreferrer"
-                target="_blank">Application Link
-                </a> 
-                <br></br>
-                <a href = "https://github.com/andrewyen64/work-day-scheduler" 
                 rel="noopener noreferrer"
                 target="_blank">Github Repository
                 </a>
@@ -127,22 +128,22 @@ function Projects() {
       {/* <!-- 3rd Row of Projects --> */}
         <div className="card-deck">
           <div className="card bg-light border-secondary">
-            <img src = {passwordGen}
-                className = "projects"
-                alt = "Password Generator"/>
+            <img src = {scheduler} 
+                  className = "projects" 
+                  alt = "Work Day Scheduler"/>
             <div className="card-body">
-              <h4 className="card-title">Password Generator</h4>
+              <h4 className="card-title">Work Day Scheduler</h4>
               <p className="card-text">
-                A random password generator that prompts the user options to choose the length and include specific characters.
+                A daily scheduler for work that helps organize your daily tasks. The task blocks change color by the hour for clear indication of past, present and future tasks.
                 <hr></hr>
-                <span className="techTitle">Technologies Used:</span> HTML, CSS, JS
+                <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, Moment.js
                 <hr></hr>
-                <a href = "https://andrewyen64.github.io/passwordGenerator/"
-                  rel="noopener noreferrer"
-                  target="_blank">Application Link
-                  </a> 
+                <a href = "https://andrewyen64.github.io/work-day-scheduler/" 
+                rel="noopener noreferrer"
+                target="_blank">Application Link
+                </a> 
                 <br></br>
-                <a href = "https://github.com/andrewyen64/passwordGenerator" 
+                <a href = "https://github.com/andrewyen64/work-day-scheduler" 
                 rel="noopener noreferrer"
                 target="_blank">Github Repository
                 </a>
