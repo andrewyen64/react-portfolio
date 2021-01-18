@@ -29,13 +29,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> React.js, MaterializeCSS, APIs/AJAX, Node, Express, MongoDB/Mongoose
                 <hr></hr>
                 <a href = "https://spotashow.herokuapp.com/" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank">Heroku Link
                 </a> 
-                <br></br>
+                
                 <a href = "https://github.com/monicarangel95/Project-2" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository
+                target="_blank">Github
                 </a>
               </p>
             </div>
@@ -55,13 +57,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, React, APIs/Axios, MongoDB/Mongoose, 
                 <hr></hr>
                 <a href = "https://polar-savannah-18798.herokuapp.com/"
+                  className="btn btn-primary"
                   rel="noopener noreferrer"
                   target="_blank">Heroku Link
                   </a> 
-                <br></br>
+                
                 <a href = "https://github.com/andrewyen64/google-book-search-react" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository
+                target="_blank">Github
                 </a>
               </p>
             </div>
@@ -84,13 +88,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, Node, Express, Mongo/Mongoose, IndexedDB, Service Worker
                 <hr></hr>
                 <a href = "https://shielded-fortress-42520.herokuapp.com/" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank">Application Link
                 </a> 
-                <br></br>
+                
                 <a href = "https://github.com/andrewyen64/budget-tracker-iDBPWA" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository
+                target="_blank">Github
                 </a>
               </p>
             </div>
@@ -109,13 +115,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, APIs/AJAX, Node, Express
                 <hr></hr>
                 <a href = "https://damp-bastion-74766.herokuapp.com/" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank">Heroku Link
                 </a> 
-                <br></br>
+                
                 <a href = "https://github.com/andrewyen64/Note-Taker" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository 
+                target="_blank">Github 
                 </a>
               </p>
             </div>
@@ -139,13 +147,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, Moment.js
                 <hr></hr>
                 <a href = "https://andrewyen64.github.io/work-day-scheduler/" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank">Application Link
                 </a> 
-                <br></br>
+                
                 <a href = "https://github.com/andrewyen64/work-day-scheduler" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository
+                target="_blank">Github
                 </a>
               </p>
             </div>
@@ -164,13 +174,15 @@ function Projects() {
                 <span className="techTitle">Technologies Used:</span> HTML/CSS/JS, jQuery, APIs/AJAX, Node, Express, MySQL, Handlebars
                 <hr></hr>
                 <a href = "https://safe-dusk-87669.herokuapp.com/" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank">Heroku Link
                 </a> 
-                <br></br>
+                
                 <a href = "https://github.com/andrewyen64/burger" 
+                className="btn btn-primary"
                 rel="noopener noreferrer"
-                target="_blank">Github Repository
+                target="_blank">Github
                 </a>
               </p>
             </div>
